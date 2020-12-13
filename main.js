@@ -4,7 +4,7 @@ const sendBtn = document.querySelector('#send'),
 const roomName = prompt('Enter room name').trim();
 
 const id = crypto.getRandomValues(new Uint16Array(1))[0],
-	exampSocket = new WebSocket('ws://buafacetime.herokuapp.com', 'echo-protocol');
+	exampSocket = new WebSocket('wss://buafacetime.herokuapp.com', 'echo-protocol');
 
 sendBtn.onclick = sendText;
 closeBtn.onclick = closeChat;
