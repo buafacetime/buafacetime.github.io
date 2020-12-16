@@ -1,0 +1,33 @@
+{
+  "icons": [
+    {
+      "src": "/icon_512x512.eb96ee510cb1154cd69f05c2d486b69f.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon_192x192.02ee328430aa4ddcf76924f75e14eccd.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon_144x144.135c8551d938c7013f1187afc88cd755.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "name": "Bua FaceTime",
+  "short_name": "Bua FaceTime",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": ".",
+  "description": "a secured video chat in the browser",
+  "author": "K.T Motshoana",
+  "lang": "en-US",
+  "background_color": "#222",
+  "theme_color": "#ff9b04",
+  "scope": "/"
+}
